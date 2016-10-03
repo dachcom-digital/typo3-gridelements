@@ -1,0 +1,16 @@
+{
+    "name": "dachcom/typo3-gridelementsfix",
+    "type": "typo3-cms-extension",
+    "description": "TYPO3 - Gridelements translations fix",
+    "require": {
+        "typo3/cms-composer-installers": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dachcom\\Gridelementsfix\\": "Classes/"
+        }
+    },
+    "extra": {
+        "installer-name": "gridelementsfix"
+    }
+}
